@@ -1,0 +1,17 @@
+{
+  "name": "coco-api-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free Node.js examples for COCO API",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "quickstart": "node quickstart.mjs",
+    "streaming": "node streaming.mjs",
+    "models": "node list_models.mjs",
+    "messages": "node claude_messages.mjs"
+  },
+  "license": "MIT"
+}
